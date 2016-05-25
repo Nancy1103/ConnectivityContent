@@ -28,7 +28,7 @@ The Sort Rank endpoint will return a hotel's average sort rank data for a range 
 
 ##### Sample Request with all parameters specified
 ```
-http://apis.integration.karmalab.net/june-hackathon/sort-ranks/lodgingSort/v1/hops/HopsAverageRanks?hotelId=1&searchDate=2016-05-15&checkin=2016-05-16&numDays=2
+https://int.services.expediapartnercentral.com/sort-ranks/lodgingSort/v1/hops/HopsAverageRanks?hotelId=1&searchDate=2016-05-15&checkin=2016-05-16&numDays=2
 ```
 
 ### Response

@@ -14,7 +14,7 @@ Basic Authentication in HTTP header, using your Expedia Partner Central (EPC) cr
 The most basic call to retreive sort rank data is to simply pass a hotel id and client id to the <lodgingSort/v1/hops/HopsAverageRanks> endpoint via a query parameter.  
 
 ```
-http://apis.integration.karmalab.net/june-hackathon/sort-ranks/lodgingSort/v1/hops/HopsAverageRanks?hotelId=1
+https://int.services.expediapartnercentral.com/sort-ranks/lodgingSort/v1/hops/HopsAverageRanks?hotelId=1
 ```
 
 The response will contain the hotel's average sort position for check in dates starting from today for the next 90 days in that hotel's top TPIDs and regions.
@@ -24,7 +24,7 @@ The response will contain the hotel's average sort position for check in dates s
 To retreive a smaller range of checkin data, the search date, check-in date and number of days can be specified.
 
 ```
-http://apis.integration.karmalab.net/june-hackathon/sort-ranks/lodgingSort/v1/hops/HopsAverageRanks?hotelId=1&searchDate=2016-05-15&checkin=2016-05-16&numDays=1
+https://int.services.expediapartnercentral.com/sort-ranks/lodgingSort/v1/hops/HopsAverageRanks?hotelId=1&searchDate=2016-05-15&checkin=2016-05-16&numDays=1
 ```
 
 The response will contain only the specified checkin dates: 

@@ -25,7 +25,7 @@ The Top TPID and Regions endpoint will return a sorted list of top regions for e
 
 ##### Sample Request with all parameters specified
 ```
-http://apis.integration.karmalab.net/june-hackathon/top-tpids/lodgingSort/v1/hops/HopsTopTpidsAndRegions?hotelId=1
+https://int.services.expediapartnercentral.com/top-tpids/lodgingSort/v1/hops/HopsTopTpidsAndRegions?hotelId=1
 ```
 
 ### Response Format

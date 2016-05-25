@@ -1,4 +1,4 @@
 # Try It
 +++swagger
-http://apis.integration.karmalab.net/june-hackathon/insights/api-docs/v1
+https://int.services.expediapartnercentral.com/insights/api-docs/v1
 +++
